@@ -1,0 +1,88 @@
+/* =========================================
+		Color Index
+   ========================================= */
+
+/**
+ * Prefix colors with $c_ this
+ * makes them easily findable
+ * with auto complete
+ *
+ * Give colors their names in the
+ * index. This makes it easier to
+ * arrange them reasonably in the
+ * index
+ */
+
+// examples:
+
+$c_black: #000;
+
+$c_blueviolet: #8a2be2;
+
+$c_cornflowerblue: #6495ed;
+
+$c_white: #fff;
+
+$c_red: #f00;
+
+$c_green: #0f0;
+
+$c_brand: #9A1220;
+$c_brand_dark: #740E18;
+
+$c_gr_1: #4D4D4D;
+$c_gr_2: #666666;
+$c_gr_3: #808080;
+$c_gr_4: #ACACAC;
+$c_gr_5: #DFDFDF;
+$c_gr_6: #E3E3E3;
+
+
+
+/* =========================================
+		Colors Applied
+   ========================================= */
+
+/**
+ * Prefix applied colors with $ca_
+ * this makes them easily findable
+ * with auto complete
+ *
+ * Define where colors where and how
+ * colors are used. This makes it
+ * easier to use them in the rest
+ * of the sass code
+ */
+
+// examples:
+
+// state
+$ca_highlight: $c_blueviolet;
+
+$ca_error: $c_red;
+
+$ca_success: $c_green;
+
+
+// elements
+$ca_bg_body: transparent;
+$ca_txt_body: $c_gr_2;
+$ca_txt_title: $c_gr_1;
+$ca_border_box: $c_gr_6;
+$ca_nav_a: $c_white;
+$ca_nav_a_hover: $c_gr_3;
+
+
+
+// typography
+$ca_txt_display: $c_white;
+
+$ca_txt_body: $c_white;
+
+$ca_txt_highlight: $c_white;
+
+//post colors
+$c_post_title : #5f87a5;
+$c_post_meta : #f17403;
+$c_post_body : #515556;
+$c_post_body-bold : #352639;
